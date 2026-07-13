@@ -1,0 +1,165 @@
+NOTICE D'UTILISATION - PANEL BCMD
+==================================
+
+Cette notice explique simplement comment utiliser le panel LSMD de suivi des véhicules, comment enregistrer ou modifier un véhicule, et comment utiliser le système de rapports.
+
+1. ENREGISTRER UN VÉHICULE
+--------------------------
+
+Pour ajouter un véhicule dans le panel :
+
+1. Remplir les champs en haut du panel :
+   - Véhicule : nom du véhicule.
+   - Plaque : plaque du véhicule.
+   - Matricule : matricule du véhicule.
+   - Ambulancier : nom de l'ambulancier concerné.
+   - Emplacement : Garage, Fourrière ou Pas rangé.
+   - Note / observation : information complémentaire si besoin.
+
+2. Cliquer sur le bouton :
+   ➕ Ajouter
+
+Le véhicule apparaît ensuite dans le tableau principal.
+
+Par défaut, le stock véhicule et l'entretien véhicule sont considérés comme non faits tant qu'ils ne sont pas cochés dans le tableau.
+
+
+2. MODIFIER LES INFORMATIONS D'UN VÉHICULE
+------------------------------------------
+
+Une fois le véhicule ajouté, il est possible de modifier directement ses informations dans le tableau.
+
+Vous pouvez modifier :
+
+- le stock véhicule ;
+- l'entretien véhicule ;
+- le niveau d'essence ;
+- l'emplacement ;
+- la note ;
+- les informations principales du véhicule via les actions prévues dans le tableau.
+
+Le panel met automatiquement à jour l'état global du véhicule :
+
+- Conforme : véhicule correctement contrôlé.
+- À traiter : véhicule nécessitant une vérification ou une régularisation.
+- Critique : véhicule avec un défaut majeur.
+
+Un véhicule devient critique si :
+
+- l'essence est vide ;
+- le véhicule est en fourrière ;
+- le véhicule est indiqué comme Pas rangé.
+
+
+3. SYSTÈME DE RAPPORTS
+----------------------
+
+Le panel permet de générer plusieurs types de rapports.
+
+A. Rapport général
+
+Le rapport général sert à lister les véhicules avec défaut majeur.
+
+Il affiche uniquement les véhicules qui nécessitent une attention particulière, par exemple :
+
+- stock véhicule non effectué ;
+- entretien véhicule non effectué ;
+- essence vide ;
+- véhicule en fourrière ;
+- véhicule non rangé après service.
+
+Le rapport général peut être :
+
+- aperçu dans le panel ;
+- enregistré en PDF ;
+- copié en PNG pour être collé directement dans Discord ;
+- exporté au format TXT selon les besoins.
+
+B. Rapport individuel
+
+Le rapport individuel sert à créer un rappel ou un avertissement pour un ambulancier concerné par un défaut majeur.
+
+Pour générer un rapport individuel :
+
+1. Cliquer sur :
+   🧾 Rapport individuel
+
+2. Sélectionner le matricule concerné.
+
+3. Choisir le type de rapport :
+   - Rappel simple
+   - Avertissement
+
+4. Générer l'aperçu.
+
+5. Depuis l'aperçu, il est possible de :
+   - copier le rapport en PNG ;
+   - enregistrer le rapport en PDF ;
+   - valider le rapport individuel.
+
+Une fois validé, le rapport apparaît dans la section :
+
+📌 Rappels / avertissements individuels validés
+
+Cette section permet de suivre les rappels et avertissements déjà enregistrés.
+
+
+4. SUIVI DES RAPPELS ET AVERTISSEMENTS
+--------------------------------------
+
+Dans la section des rappels / avertissements validés, il est possible de suivre chaque rapport individuel.
+
+Chaque entrée indique notamment :
+
+- le nom de l'ambulancier ;
+- le matricule concerné ;
+- le type de rapport ;
+- la date ;
+- le ou les défauts constatés ;
+- le statut du suivi.
+
+Le statut peut être :
+
+- En attente ;
+- Traité.
+
+Lorsque le problème a été corrigé ou pris en compte, le suivi peut être marqué comme traité.
+
+
+5. EXPORT ET IMPORT JSON
+------------------------
+
+Le bouton Export JSON permet de sauvegarder les données du panel.
+
+Le fichier JSON peut contenir :
+
+- la liste des véhicules ;
+- l'historique des rapports ;
+- les rappels et avertissements individuels validés.
+
+Le bouton Import JSON permet de réimporter une sauvegarde précédente.
+
+Il est conseillé d'exporter régulièrement les données afin d'éviter toute perte d'information.
+
+
+6. CONTACT EN CAS DE QUESTION OU DE DEMANDE
+-------------------------------------------
+
+Pour toute question, demande de modification, problème technique ou demande liée à l'utilisation du panel, merci de contacter :
+
+- le Directeur LSMD ;
+- ou le Chef ambulancier LSMD.
+
+Aucune modification importante du panel ne doit être faite sans accord préalable d'un responsable autorisé.
+
+
+7. DROIT DE PROPRIÉTÉ DU PANEL
+------------------------------
+
+L'ensemble du panel BCMD, son contenu, son organisation, son fonctionnement, ses rapports, ses fichiers et ses éléments visuels sont placés sous la propriété du Directeur LSMD.
+
+Le panel est destiné à un usage interne au BCMD.
+
+Toute copie, redistribution, modification, diffusion ou réutilisation du panel en dehors du cadre prévu doit faire l'objet d'une autorisation du Directeur LSMD.
+
+© Propriétaire Directeur LSMD
